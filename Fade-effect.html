@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade-Effect</title>
+
+    <script src="JQuery.js" type="text/javascript"></script>
+
+    <link href="External.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <button> Fade Demo</button>
+
+    <p class="f1">Welcome to Html</p>
+    <p class="f2"> Welcome to css</p>
+    <p class="f3">Welcome to javascript</p>
+    <p class="f4">Welcome to JQuery</p>
+
+
+    <script>
+        $(document).ready(function() {
+            $('button').click(function() {
+                /*  $('.f1').fadeOut(1000);
+                  $('.f2').fadeOut(2000);
+                  $('.f3').fadeOut(3000);
+                  $('.f4').fadeOut(4000);*/
+
+                /*    $('.f1').fadeIn(1000);
+                    $('.f2').fadeIn(2000);
+                    $('.f3').fadeIn(3000);
+                    $('.f4').fadeIn(4000);  */
+
+                /*    $('.f1').fadeToggle(1000);
+                    $('.f2').fadeToggle(2000);
+                    $('.f3').fadeToggle(3000);
+                    $('.f4').fadeToggle(4000); */
+
+                $('.f1').fadeTo('slow', 0.18);
+                $('.f2').fadeTo('medium', 0.18);
+                $('.f3').fadeTo('fast', 0.18);
+                $('.f4').fadeTo('fast', 0.18);
+
+            })
+        })
+    </script>
+</body>
+
+</html>
