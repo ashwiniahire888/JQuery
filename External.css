@@ -1,0 +1,53 @@
+.slide {
+    height: 300px;
+    width: auto;
+    background-color: blue;
+}
+
+.p1 {
+    font-size: 30px;
+    background-color: purple;
+    color: white;
+}
+
+.f1 {
+    background-color: brown;
+    height: 50px;
+    color: white;
+}
+
+.f2 {
+    background-color: yellow;
+    height: 50px;
+    color: white;
+}
+
+.f3 {
+    background-color: darkmagenta;
+    height: 50px;
+    color: white;
+}
+
+.f4 {
+    background-color: orange;
+    height: 50px;
+    color: white;
+}
+
+.h1 {
+    background-color: darkgreen;
+    height: 50px;
+    width: 100px;
+    color: wheat;
+    position: absolute;
+    border: 2px solid red;
+}
+
+.H {
+    background-color: deepskyblue;
+    height: 50px;
+    width: 150px;
+    color: blue;
+    position: absolute;
+    border: 2px solid purple;
+}
